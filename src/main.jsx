@@ -8,7 +8,7 @@ import App from "./App.jsx";
 import Error from './pages/Error';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Projects from './pages/Projects';
+import Portfolio from './pages/Portfolio';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/Projects',
-        element: <Projects />,
+        element: <Portfolio />,
       },
       {
         path: '/Contact',
