@@ -1,12 +1,22 @@
+body{
+  background-color: #EAD196;
+}
 
+.nav {
+  background-color: #BF3131;
+}
 
 .title {
   font-size: 1.5em;
   text-align: center;
-  color: #000;
+  color: white;
   font-weight: bold;
 }
 
+.custImg {
+  width: 200px;
+  object-fit: cover;
+}
 
 .card {
   padding: 2em;
