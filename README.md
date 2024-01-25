@@ -1,8 +1,35 @@
-# React + Vite
+# React Portfolio ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ## Description
+  This is my most current portfolio for my coding career! This includes a short library of a few of my projects, a contact form, and a downloadable resume.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
-Currently, two official plugins are available:
+  ## Installation
+  [Link to App](!https://benevolent-marigold-3da785.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Usage
+  Just click on the above link
+
+  ## Contributions
+  Feel free to contact me
+
+  ## Tests
+  NO tests
+
+  ## License
+
+This project is licensed under [MIT License](https://opensource.org/licenses/MIT). ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+  ## Questions
+  https://github.com/ChasingGatsby
+
+  jabriel0ne@gmail.com
+
+  If you have any questions, please feel free to contact me using the above!
