@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import resume from "../assets/resume.pdf";
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -42,7 +43,7 @@ function NavTabs() {
       </li>
       <li className="nav-item d-flex">
         <a
-          href="src/assets/resume.pdf"
+          href={resume}
           download
           className="nav-link active align-self-center"
           style={{ backgroundColor: "#7D0A0A", color: "white" }}
