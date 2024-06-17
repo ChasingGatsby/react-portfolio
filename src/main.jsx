@@ -9,6 +9,7 @@ import Error from './pages/Error';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Blog from './pages/Blog';
 
 const router = createBrowserRouter([
   {
@@ -16,17 +17,20 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
-    
       {
-        path: '/About',
+        index: true,
+        element: <Blog />
+      },
+      {
+        path: '/about',
         element: <About />,
       },
       {
-        path: '/Projects',
+        path: '/projects',
         element: <Portfolio />,
       },
       {
-        path: '/Contact',
+        path: '/contact',
         element: <Contact />,
       },
     ],

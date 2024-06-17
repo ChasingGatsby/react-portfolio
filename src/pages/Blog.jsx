@@ -1,0 +1,1 @@
+import profile from "../assets/me.jpg";
