@@ -7,25 +7,23 @@ function NavTabs() {
   return (
     <ul className="nav nav-tabs d-flex align-items-end">
       <li className="navbar-brand title p-3 mx-3 align-self-center">
-        Gatsbeau SUCKS at Coding!
+        <Link to="/" style={{ color: "inherit", textDecoration: "inherit" }}>
+          Gatsbeau SUCKS at Coding!
+        </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/About"
-          className={
-            currentPage === "/About" || currentPage === "/"
-              ? "nav-link active"
-              : "nav-link"
-          }
+          to="/about"
+          className={currentPage === "/about" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Projects"
+          to="/projects"
           className={
-            currentPage === "/Projects" ? "nav-link active" : "nav-link"
+            currentPage === "/projects" ? "nav-link active" : "nav-link"
           }
         >
           Projects
@@ -33,9 +31,9 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Contact"
+          to="/contact"
           className={
-            currentPage === "/Contact" ? "nav-link active" : "nav-link"
+            currentPage === "/contact" ? "nav-link active" : "nav-link"
           }
         >
           Contact
