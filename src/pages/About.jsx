@@ -2,9 +2,9 @@ import profile from "../assets/me.jpg";
 
 export default function About() {
   return (
-    <div className="m-2">
-      <h1>About Me</h1>
+    <div className="container m-2">
       <img src={profile} alt="profile" className="img-thumbnail m-2 custImg" />
+      <h1>About Me</h1>
       <div className="">
         <p>Hey guys! Thanks for actually clicking through my stuff...</p>
         <p>
