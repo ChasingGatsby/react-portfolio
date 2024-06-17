@@ -4,6 +4,7 @@ import noteTaker from '../assets/portPics/notetaker.jpg'
 import techBlog from '../assets/portPics/techblog.jpg'
 import weatherDash from '../assets/portPics/weather.jpg'
 import codingQuiz from '../assets/portPics/quiz.jpg'
+import pokiDoki from '../assets/portPics/pokidoki.png'
 
 export {
     pokeDisple,
@@ -11,5 +12,6 @@ export {
     noteTaker,
     techBlog,
     weatherDash,
-    codingQuiz
+    codingQuiz,
+    pokiDoki
 }

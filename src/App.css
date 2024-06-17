@@ -1,9 +1,10 @@
-body{
-  background-color: #EAD196;
+body {
+  background-color: #ead196;
+  padding-bottom: 70px;
 }
 
 .nav {
-  background-color: #BF3131;
+  background-color: #bf3131;
 }
 
 .title {
@@ -11,6 +12,19 @@ body{
   text-align: center;
   color: white;
   font-weight: bold;
+  transition: color 0.5% ease;
+}
+
+.title:hover {
+  color: black;
+}
+
+.nav-link {
+  color: white
+}
+
+.nav-link.active {
+  color: black
 }
 
 .custImg {

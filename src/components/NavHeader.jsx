@@ -13,7 +13,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/about" style={{}}
           className={currentPage === "/about" ? "nav-link active" : "nav-link"}
         >
           About

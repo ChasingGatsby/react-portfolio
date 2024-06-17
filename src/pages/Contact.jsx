@@ -3,7 +3,7 @@ export default function Contact() {
     <div className="m-5">
       <form>
         <div className="form-group my-3">
-          <label htmlFor="exampleInputName">Your Names</label>
+          <label htmlFor="exampleInputName">Your Name</label>
           <input
             type="name"
             className="form-control"
