@@ -12,7 +12,7 @@
   - [Questions](#questions)
 
   ## Installation
-  [Link to App](https://benevolent-marigold-3da785.netlify.app/)
+  [Link to App](https://chasinggatsbeau.netlify.app/)
 
   ## Usage
   Just click on the above link
