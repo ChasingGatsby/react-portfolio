@@ -1,9 +1,9 @@
-import pokeDisple from '../assets/portPics/pokedisple.jpg'
-import weeklyPlanner from '../assets/portPics/planner.jpg'
-import noteTaker from '../assets/portPics/notetaker.jpg'
-import techBlog from '../assets/portPics/techblog.jpg'
-import weatherDash from '../assets/portPics/weather.jpg'
-import codingQuiz from '../assets/portPics/quiz.jpg'
+import pokeDisple from '../assets/portPics/pokedisple.JPG'
+import weeklyPlanner from '../assets/portPics/planner.JPG'
+import noteTaker from '../assets/portPics/notetaker.JPG'
+import techBlog from '../assets/portPics/techblog.JPG'
+import weatherDash from '../assets/portPics/weather.JPG'
+import codingQuiz from '../assets/portPics/quiz.JPG'
 import pokiDoki from '../assets/portPics/pokidoki.png'
 
 export {
