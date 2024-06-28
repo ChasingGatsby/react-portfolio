@@ -7,19 +7,23 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name, email, message }),
-    });
-    if (response.ok) {
-      // Handle success
-      alert("Message sent successfully");
-    } else {
-      // Handle error
-      alert("Failed to send message");
+    try {
+      const response = await fetch("/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+      if (response.ok) {
+        alert("Message sent successfully");
+        // Optionally reset form fields here
+      } else {
+        alert("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Failed to send message:", error);
+      alert("Failed to send message due to a network error");
     }
   };
 
